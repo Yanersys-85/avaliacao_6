@@ -1,0 +1,24 @@
+
+git commit -m "primeiro commit"
+git add *
+git status
+git commit -m "segundo commit"
+git branch -M main
+git branch -M feat
+git add *
+git status
+git commit -m "primeiro commit feat"
+git add *
+git status
+git commit -m "segundo commit feat"
+git checkout main
+git add *
+git status
+git commit -m "primeiro commit main"
+git add *
+git status
+git commit -m "segundo commit main"
+git add *
+git status
+git commit -m "commit push" 
+git push -u origin main
